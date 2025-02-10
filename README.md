@@ -36,7 +36,7 @@ microplastic_detector/
 
 ### Dataset Preparation
 - Custom dataset with annotated microplastic images
-- Data split: Training (80%) and Validation (20%)
+- Data split: Training (74%) and Validation (26%)
 - Annotations converted from CSV to YOLO format
 
 ### Training Configuration
@@ -54,9 +54,9 @@ microplastic_detector/
 
 ## Model Performance 📊
 
-- **mAP50**: [Your mAP50 score]
-- **Precision**: [Your precision score]
-- **Recall**: [Your recall score]
+- **mAP50**: 0.68796 (68.8%)
+- **Precision**: 0.79481 (79.5%)
+- **Recall**: 0.64218 (64.2%)
 
 ## Local Deployment 💻
 
@@ -89,49 +89,39 @@ Access the web interface at `http://localhost:5000`
 pip install -r requirements.txt
 ```
 
-3. Run the application:
+3. Activate the virtual environment:
+   - On Windows:
+     ```bash
+     source yolov5_env/Scripts/activate
+     ```
+
+   - On macOS/Linux:
+     ```bash
+     source yolov5_env/bin/activate
+     ```
+
+4. Run the application:
 ```
 python app.py
 ```
 
 ## Future Improvements 🚀
 
-- [ ] Implement real-time detection
-- [ ] Add support for video processing
-- [ ] Improve model accuracy
-- [ ] Deploy to cloud platform
-- [ ] Add batch processing capability
+- Implement real-time detection
+- Add support for video processing
+- Improve model accuracy
+- Deploy to cloud platform
+- Add batch processing capability
 
-## Contributing 🤝
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
-## License 📄
+## Project Assets
 
-[Your chosen license]
+### Dataset and Model Files
+⚠️ **Note**: Due to GitHub's file size constraints (>2GB), the full project files (dataset, trained models, and training outputs) are hosted on [Google Drive](https://drive.google.com/drive/folders/1m5EsVUZOsE2-a1QIdknnSO5P6vg35NwA?usp=sharing). 
 
-## Acknowledgments 👏
 
-- Ultralytics for YOLOv5
-- Google Colab for training resources
-- [Any other acknowledgments]
+[![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/your-drive-link-here)
 
-## Contact 📧
 
-[Your Name] - [Your Email]
-
-Project Link: [Your repository URL]
-```
-
-Remember to:
-1. Fill in the performance metrics from your training results
-2. Add your contact information
-3. Choose and add appropriate license
-4. Update repository URL
-5. Add any specific acknowledgments
-6. Customize sections based on your project's specific features
 
