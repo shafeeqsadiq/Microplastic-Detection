@@ -21,7 +21,7 @@ This project implements a microplastic detection system using YOLOv5, capable of
 
 ## Project Structure 📁
 
-
+```
 microplastic_detector/
 ├── app.py                 # Flask web application
 ├── best.pt               # Trained YOLOv5 model
@@ -30,7 +30,7 @@ microplastic_detector/
 │   └── index.html       # Web interface
 └── data/                # Dataset configuration
     └── microplastics.yaml
-
+```
 
 ## Model Training 🔨
 
