@@ -118,7 +118,7 @@ python app.py
 ## Project Assets
 
 ### Dataset and Model Files
-⚠️ **Note**: Due to GitHub's file size constraints (>2GB), the full project files (dataset, trained models, and training outputs) are hosted on [Google Drive](https://drive.google.com/drive/folders/1m5EsVUZOsE2-a1QIdknnSO5P6vg35NwA?usp=sharing). 
+⚠️ **Note**: Due to GitHub's file size constraints (>2GB), the full project files (dataset, trained models, and training outputs) are hosted on [Google Drive](https://drive.google.com/drive/folders/1ynpX42vE8VUwYAVOIp7406so23johFW6?usp=sharing). 
 
 
 [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1m5EsVUZOsE2-a1QIdknnSO5P6vg35NwA?usp=sharing)
